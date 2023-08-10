@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
-import { GoogleAuthProvider } from 'firebase/auth';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { GoogleAuthProvider } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-root',
